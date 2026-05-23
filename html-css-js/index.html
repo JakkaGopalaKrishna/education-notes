@@ -1,0 +1,95 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    #t{
+        display: none;
+    }
+</style>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Browser</title>
+    <style>
+        details p{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <p id="first" name="example">First Paragraph</p>
+        <p id="second">Second Paragraph</p>
+        <p id="t">t Paragraph</p>
+    </div>
+    <dd>content should start 50px left</dd>
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <label>Name:</label>
+        <input type="text"><br><br>
+
+        <label>Email:</label>
+        <input type="email">
+    </fieldset>
+    <details>
+        <summary>Click to see more</summary>
+        <p>This is hidden content. It appears when you click.</p>
+    </details>
+    <details>
+        <summary>HTML</summary>
+        <p>Hyper text markup language</p>
+    </details>
+    <details>
+        <summary>CSS</summary>
+        <p>Styles for the HTML</p>
+    </details>
+    <script>
+        // 1. HTMLCollection (via .children)
+        const collection = document.getElementById('parent').children;
+        // console.log(typeof collection);
+        // console.log(collection);
+        // Access by Index
+        // console.log(collection.item(0).innerText); // "First Paragraph"
+        // console.log(collection[0].innerText); // "First Paragraph"
+
+        // Access by ID or Name (unique to HTMLCollection)
+        // console.log(collection.namedItem('first').innerText); // "First Paragraph"
+        // console.log(collection.namedItem('example').innerText); // "First Paragraph"
+
+
+        // 2. NodeList (via .querySelectorAll)
+        const nodeList = document.querySelectorAll('#parent p');
+        // console.log(typeof nodeList);
+        // console.log(nodeList);
+        // console.log(typeof nodeList.values());
+
+        // Access by Index
+        // console.log(nodeList.item(1).innerText); // "Second Paragraph"
+        // console.log(nodeList[1].innerText); // "Second Paragraph"
+
+        // Using .forEach() (unique to NodeList)
+        // nodeList.forEach(node => console.log(node.tagName)); // P, P
+
+        // Accessing Iterators
+        let keys = nodeList.keys();
+        // console.log(keys);
+        // for (let key of keys) console.log(key); // 0, 1
+
+        let parent1 = document.getElementById("parent");
+        console.log(parent1);
+        // get innerText
+        console.log(parent1.innerText);
+        // get innerHTML
+        console.log(parent1.innerHTML);
+        // get textContent
+        console.log(parent1.textContent);                
+    </script>
+</body>
+
+</html>
