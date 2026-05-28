@@ -69,6 +69,11 @@
 * [Theory-1](/manual-testing/manual-testing-syllabus.md)
 * [Theory-2](/manual-testing/manual-testing-learn1.md)
 
+## Junit Testing
+* [Introduction](/JunitTesting/Junit-introduction.md)
+* [Theory-1](/JunitTesting/JUnit.md)
+* [Code](/JunitTesting/JunitCode.md)
+
 ## Life Skills
 * [Technical Paper](/life-skills/technical-paper-cdn.md)
 * [Listening and Assertive Communication ](/life-skills/Communication_Listening_Reflection.md)
