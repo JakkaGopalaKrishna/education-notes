@@ -65,6 +65,7 @@
 
 ## Manual Testing
 * [Syllabus](/manual-testing/manual%20testing%20syllabus.png)
+* [MindMap](/manual-testing/manual-testing-mindmap.md)
 * [Theory-1](/manual-testing/manual-testing-syllabus.md)
 * [Theory-2](/manual-testing/manual-testing-learn1.md)
 
