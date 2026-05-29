@@ -76,6 +76,11 @@
 * [Theory-1](/JunitTesting/JUnit.md)
 * [Code](/JunitTesting/JunitCode.md)
 
+## REST Assure
+* [Syllabus](/REST-Assured/REST-Assured-Syllabus.md)
+* [Theory-1](/REST-Assured/Modules.md)
+* [Questions](/REST-Assured/Questions-and-Answers.md)
+
 ## Life Skills
 * [Technical Paper](/life-skills/technical-paper-cdn.md)
 * [Listening and Assertive Communication ](/life-skills/Communication_Listening_Reflection.md)
