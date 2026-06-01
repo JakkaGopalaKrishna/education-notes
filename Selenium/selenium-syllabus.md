@@ -401,7 +401,7 @@ After completing this syllabus, you will be able to:
 
 No. Based on the modules you've completed, you've covered **much more than just the basics**.
 
-### Basics Level
+### Basics Level (Modules 1 - 15)
 
 * Introduction to Selenium
 * WebDriver Setup
@@ -419,7 +419,7 @@ No. Based on the modules you've completed, you've covered **much more than just 
 * File Upload/Download
 * Screenshots
 
-### Intermediate Level
+### Intermediate Level (Modules 15 - 20)
 
 * Dynamic Web Elements
 * TestNG
@@ -430,7 +430,7 @@ No. Based on the modules you've completed, you've covered **much more than just 
 * Reporting
 * Git & GitHub
 
-### Advanced Level
+### Advanced Level (Modules 21 - 25)
 
 * Hybrid Framework
 * Selenium Grid

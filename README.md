@@ -81,6 +81,13 @@
 * [Theory-1](/REST-Assured/Modules.md)
 * [Questions](/REST-Assured/Questions-and-Answers.md)
 
+## Selenium
+* [About-Selenium](/Selenium/about-selenium.md)
+* [Syllabus](/Selenium/selenium-syllabus.md)
+* [Theory-1](/Selenium/modules-1.md)
+* [Theory-2](/Selenium//modules-2.md)
+* [Questions](/Selenium//Questions-and-Answers.md)
+
 ## Life Skills
 * [Technical Paper](/life-skills/technical-paper-cdn.md)
 * [Listening and Assertive Communication ](/life-skills/Communication_Listening_Reflection.md)
