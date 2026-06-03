@@ -54,6 +54,7 @@
 * [Theory-1](/java/JavaLearn1.md)
 * [Theory-2](/java/CollectionsFramework.md)
 * [Java-String-Methods](/java/java-string-methods.md)
+* [Java-Character-Methods](/java/java-character-methods.md)
 
 ## SQL
 * [Installation](/sql/installSQL.md)
