@@ -89,6 +89,12 @@
 * [Theory-2](/Selenium//modules-2.md)
 * [Questions](/Selenium//Questions-and-Answers.md)
 
+## Postman
+* [About-Postman](/postman/postman-overview.md)
+* [Syllabus](/postman/postman-syllabus.md)
+* [Theory](/postman/modules.md)
+* [Questions](/postman/Questions-and-Answers.md)
+
 ## Life Skills
 * [Technical Paper](/life-skills/technical-paper-cdn.md)
 * [Listening and Assertive Communication ](/life-skills/Communication_Listening_Reflection.md)
