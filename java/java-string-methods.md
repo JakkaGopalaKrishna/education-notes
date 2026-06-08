@@ -965,11 +965,11 @@ sb.insert(0, "Hi ");
 
 # Difference Table
 
-| Type | Syntax |
-|---|---|
-| Array | arr.length |
-| String | str.length() |
-| ArrayList | list.size() |
+| Type        | Syntax        |
+| ----------- | ------------- |
+| Array       | arr.length    |
+| String      | str.length()  |
+| ArrayList   | list.size()   |
 | String char | str.charAt(i) |
 
 ---
@@ -1015,6 +1015,35 @@ str = str.toUpperCase();
 ```
 
 ---
-
-# End of Document
-
+---
+## Quick Revision – Java String Methods
+| Method             | Syntax                      | Return Type | Purpose                 |
+| ------------------ | --------------------------- | ----------- | ----------------------- |
+| length()           | `str.length()`              | int         | String length           |
+| charAt()           | `str.charAt(i)`             | char        | Character at index      |
+| equals()           | `a.equals(b)`               | boolean     | Compare content         |
+| equalsIgnoreCase() | `a.equalsIgnoreCase(b)`     | boolean     | Compare ignoring case   |
+| compareTo()        | `a.compareTo(b)`            | int         | Lexicographical compare |
+| contains()         | `str.contains("abc")`       | boolean     | Check substring         |
+| substring()        | `str.substring(s,e)`        | String      | Extract part            |
+| indexOf()          | `str.indexOf('a')`          | int         | First occurrence        |
+| lastIndexOf()      | `str.lastIndexOf('a')`      | int         | Last occurrence         |
+| toUpperCase()      | `str.toUpperCase()`         | String      | Uppercase               |
+| toLowerCase()      | `str.toLowerCase()`         | String      | Lowercase               |
+| trim()             | `str.trim()`                | String      | Remove outer spaces     |
+| replace()          | `str.replace('a','b')`      | String      | Replace chars           |
+| replaceAll()       | `str.replaceAll(regex,val)` | String      | Replace regex           |
+| startsWith()       | `str.startsWith("Ja")`      | boolean     | Check prefix            |
+| endsWith()         | `str.endsWith(".txt")`      | boolean     | Check suffix            |
+| split()            | `str.split(",")`            | String[]    | Split string            |
+| isEmpty()          | `str.isEmpty()`             | boolean     | Length = 0              |
+| isBlank()          | `str.isBlank()`             | boolean     | Empty or spaces         |
+| concat()           | `a.concat(b)`               | String      | Join strings            |
+| repeat()           | `str.repeat(n)`             | String      | Repeat string           |
+| toCharArray()      | `str.toCharArray()`         | char[]      | Convert to char array   |
+| valueOf()          | `String.valueOf(x)`         | String      | Convert to String       |
+| join()             | `String.join("-", arr)`     | String      | Join values             |
+| matches()          | `str.matches(regex)`        | boolean     | Regex match             |
+| intern()           | `str.intern()`              | String      | String pool reference   |
+---
+---
