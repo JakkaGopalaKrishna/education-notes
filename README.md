@@ -80,6 +80,7 @@
 ## REST Assure
 * [Syllabus](/REST-Assured/REST-Assured-Syllabus.md)
 * [Theory-1](/REST-Assured/Modules.md)
+* [Theory-2](/REST-Assured/Rest-Assured-API-Testing-Complete-Notes.pdf)
 * [Questions](/REST-Assured/Questions-and-Answers.md)
 
 ## Selenium
